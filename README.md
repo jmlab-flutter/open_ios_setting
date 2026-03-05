@@ -24,9 +24,6 @@ import 'package:open_ios_setting/open_ios_setting.dart';
 
 final openIosSetting = OpenIosSetting();
 
-// Get platform version
-final version = await openIosSetting.getPlatformVersion();
-
 // Open iOS Settings home page
 await openIosSetting.openSettingHome();
 ```
@@ -35,7 +32,6 @@ await openIosSetting.openSettingHome();
 
 | Method | Description | Return |
 |--------|-------------|--------|
-| `getPlatformVersion()` | Get iOS platform version | `Future<String?>` |
 | `openSettingHome()` | Open iOS Settings home page | `Future<void>` |
 
 ## Requirements
