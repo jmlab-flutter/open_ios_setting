@@ -9,9 +9,9 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
 A Flutter plugin for opening iOS system settings pages. Supports opening the Settings app home page.
                        DESC
-  s.homepage         = 'https://github.com/parizhang/open_ios_setting'
+  s.homepage         = 'https://github.com/jmlab-flutter/open_ios_setting'
   s.license          = { :file => '../LICENSE' }
-  s.author           = { 'parizhang' => 'parizhang@gmail.com' }
+  s.author           = { 'jmlab-flutter' => 'jmlab-flutter@users.noreply.github.com' }
   s.source           = { :path => '.' }
   s.source_files = 'Classes/**/*'
   s.dependency 'Flutter'
