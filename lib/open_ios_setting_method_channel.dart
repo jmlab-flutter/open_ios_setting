@@ -9,12 +9,6 @@ class MethodChannelOpenIosSetting extends OpenIosSettingPlatform {
   @visibleForTesting
   final methodChannel = const MethodChannel('open_ios_setting');
 
-  @override
-  Future<String?> getPlatformVersion() async {
-    final version = await methodChannel.invokeMethod<String>('getPlatformVersion');
-    return version;
-  }
-
   /// 打开 iOS 设置首页
   @override
   Future<void> openSettingHome() async {

@@ -14,11 +14,9 @@ import 'package:open_ios_setting/open_ios_setting.dart';
 void main() {
   IntegrationTestWidgetsFlutterBinding.ensureInitialized();
 
-  testWidgets('getPlatformVersion test', (WidgetTester tester) async {
+  testWidgets('openSettingHome test', (WidgetTester tester) async {
     final OpenIosSetting plugin = OpenIosSetting();
-    final String? version = await plugin.getPlatformVersion();
-    // The version string depends on the host platform running the test, so
-    // just assert that some non-empty string is returned.
-    expect(version?.isNotEmpty, true);
+    // 验证调用不会抛出异常
+    await plugin.openSettingHome();
   });
 }

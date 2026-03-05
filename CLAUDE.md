@@ -22,7 +22,6 @@ Method Channel 名称：`open_ios_setting`
 
 | 方法 | 说明 | Method Channel 调用 |
 |------|------|-------------------|
-| `getPlatformVersion()` | 获取 iOS 平台版本 | `getPlatformVersion` |
 | `openSettingHome()` | 打开 iOS 设置首页 | `openSettingHome` |
 
 ## 常用命令

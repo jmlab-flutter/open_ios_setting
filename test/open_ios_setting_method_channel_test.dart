@@ -12,7 +12,7 @@ void main() {
     TestDefaultBinaryMessengerBinding.instance.defaultBinaryMessenger.setMockMethodCallHandler(channel, (
       MethodCall methodCall,
     ) async {
-      return '42';
+      return null;
     });
   });
 
@@ -20,7 +20,8 @@ void main() {
     TestDefaultBinaryMessengerBinding.instance.defaultBinaryMessenger.setMockMethodCallHandler(channel, null);
   });
 
-  test('getPlatformVersion', () async {
-    expect(await platform.getPlatformVersion(), '42');
+  test('openSettingHome', () async {
+    // 验证调用不会抛出异常
+    await platform.openSettingHome();
   });
 }

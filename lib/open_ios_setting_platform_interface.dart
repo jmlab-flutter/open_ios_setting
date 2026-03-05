@@ -23,10 +23,6 @@ abstract class OpenIosSettingPlatform extends PlatformInterface {
     _instance = instance;
   }
 
-  Future<String?> getPlatformVersion() {
-    throw UnimplementedError('platformVersion() has not been implemented.');
-  }
-
   /// 打开 iOS 设置首页
   Future<void> openSettingHome() {
     throw UnimplementedError('openSettingHome() has not been implemented.');

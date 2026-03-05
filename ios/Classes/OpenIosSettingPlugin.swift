@@ -10,8 +10,6 @@ public class OpenIosSettingPlugin: NSObject, FlutterPlugin {
 
   public func handle(_ call: FlutterMethodCall, result: @escaping FlutterResult) {
     switch call.method {
-    case "getPlatformVersion":
-      result("iOS " + UIDevice.current.systemVersion)
     case "openSettingHome":
       // 打开 iOS 设置首页
       if let url = URL(string: "App-Prefs:") {
