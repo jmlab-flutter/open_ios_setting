@@ -14,7 +14,7 @@ A Flutter plugin for opening iOS system settings pages.
 
 ```yaml
 dependencies:
-  open_ios_setting: ^0.0.1
+  open_ios_setting: ^0.0.2
 ```
 
 ## Usage

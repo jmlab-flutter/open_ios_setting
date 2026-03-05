@@ -1,6 +1,6 @@
 name: open_ios_setting
 description: "A Flutter plugin for opening iOS system settings pages. Supports opening the Settings app home page."
-version: 0.0.1
+version: 0.0.2
 homepage: https://github.com/jmlab-flutter/open_ios_setting
 repository: https://github.com/jmlab-flutter/open_ios_setting
 issue_tracker: https://github.com/jmlab-flutter/open_ios_setting/issues
